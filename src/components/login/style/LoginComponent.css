@@ -1,0 +1,146 @@
+@media only screen and (max-height: 500px) {
+  .login-wrapper > .login-container > .login-left-side {
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .login-right-side > .login-image-wrapper > .app-title {
+    width: 50%;
+    font-size: 15px;
+    white-space: normal;
+    padding: 1rem 1rem;
+  }
+}
+
+.login-wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #c9d7c9 50%, var(--main-color) 50%);
+}
+
+.login-container {
+  height: 75vh;
+  width: 80vw;
+  background: linear-gradient(
+    to right bottom,
+    rgba(236, 236, 236, 0.7),
+    rgba(236, 236, 236, 0.4)
+  );
+  border-radius: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem white;
+  display: flex;
+  align-items: center;
+}
+
+.login-left-side,
+.login-right-side {
+  margin: 2rem 2rem;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+  height: 90%;
+  width: 100%;
+}
+
+.login-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  display: block;
+  border: none;
+  height: 2rem;
+  width: 76%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  padding: 0.2rem 1rem;
+  font-size: small;
+  color: gray;
+  transition: all 0.1s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input:hover {
+  outline: 0.5px solid var(--main-color);
+  box-shadow: 2px 2px 9px -1px var(--main-color);
+}
+
+label {
+  display: block;
+  text-align: left;
+  width: 76%;
+  margin: auto;
+  font-size: small;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+#submit_btn {
+  width: 80%;
+  background: var(--main-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+
+#submit_btn:hover {
+  box-shadow: 4px 3px 9px -1px gray;
+  transform: translateY(-5px);
+}
+
+.link {
+  color: var(--main-color);
+}
+
+.login-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+}
+
+#login-logo {
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-image-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#login-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 5px solid var(--main-color);
+  padding: 1rem 6rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.error {
+  border: 1px solid #d94040;
+}
