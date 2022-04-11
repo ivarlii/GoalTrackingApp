@@ -18,7 +18,7 @@ const SportComponent = () => {
       const categories = activationData?.map((a) => a.data);
       setCategories(categories);
       const totalCount = activationData?.reduce((p, c) => {
-        return {totalCount: p.totalCount + c.totalCount};
+        return { totalCount: p.totalCount + c.totalCount };
       });
       setTotalCount(totalCount.totalCount);
     }
