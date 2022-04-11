@@ -26,7 +26,7 @@ const SidebarComponent = () => {
     );
   };
 
-  const { username, nickname, phone, gender } = userDetails?.userDetails;
+  const { username, nickname, phone, gender } = userDetails.userDetails;
 
   return (
     <div>

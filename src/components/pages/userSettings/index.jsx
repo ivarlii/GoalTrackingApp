@@ -2,11 +2,9 @@ import { Button, Form, Input, notification, Select, Space } from "antd";
 import { useEffect, useRef, useState } from "react";
 import { useAuthDispatch, useAuthState } from "../../../_context";
 import { updateUser } from "../../../_context/action";
-import { useHistory } from "react-router-dom";
 
 const UserSettingsComponent = () => {
   const userDetails = useAuthState(); // global state user details usage here
-  let history = useHistory();
   const initialFieldsState = {
     email: null,
     password: null,
