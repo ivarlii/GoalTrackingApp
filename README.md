@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+In this project login page wrote with pure css and form html tag validation
+also ant design used table and form in menu pages, apex chart for show some exercise data
+and tailwind used for styling.
+
+For code formatting prettier and eslint used.
+For AJAX, axios used.
+
 ## Available Scripts
 
 In the project directory, you can run:

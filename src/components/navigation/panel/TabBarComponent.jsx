@@ -1,9 +1,4 @@
-import {
-  AiFillCompass,
-  AiFillHeart,
-  AiFillHome,
-  AiFillSetting,
-} from "react-icons/ai";
+import { AiFillHeart, AiFillHome, AiFillSetting } from "react-icons/ai";
 import { useCallback } from "react";
 import classNames from "classnames";
 import { BiBaseball } from "react-icons/bi";
