@@ -1,314 +1,235 @@
 [
   {
-    "_id": "62534eb90ec5da14ed6fdcbf",
+    "_id": "6253c5e7da14734c29350002",
     "index": 0,
-    "guid": "b7d1eb8b-b937-4e18-a2c5-a2623e06b38e",
-    "dateCreated": "2021-07-20T02:16:55 -03:00",
-    "restDuration": 12,
-    "exerciseDuration": 10,
-    "stepCount": 1061,
-    "snackList": [
-      "eiusmod",
-      "quis",
-      "cillum",
-      "consectetur"
-    ],
+    "guid": "6d3638ef-1378-42e5-b595-05be55d2a79e",
+    "dateCreated": "2021-12-31T19:27:08",
+    "restDuration": 16,
+    "exerciseDuration": 20,
+    "stepCount": 1239,
+    "snackList": ["ex", "ipsum", "eiusmod", "laborum"],
+    "tags": ["elit", "culpa", "esse", "amet", "ea", "occaecat", "nostrud"],
+    "moodDesc": "Hello! I am feeling 96 % energy now",
+    "favoriteFruit": "kiwi"
+  },
+  {
+    "_id": "6253c5e768c67b45aed57891",
+    "index": 1,
+    "guid": "c2c37ed1-b58d-4b52-9176-d0116f8d5be2",
+    "dateCreated": "2021-01-26T03:15:11",
+    "restDuration": 13,
+    "exerciseDuration": 23,
+    "stepCount": 1232,
+    "snackList": ["eu", "sit", "irure", "nisi"],
     "tags": [
-      "ipsum",
-      "quis",
-      "ad",
-      "exercitation",
-      "reprehenderit",
-      "tempor",
-      "sit"
+      "eiusmod",
+      "in",
+      "enim",
+      "consectetur",
+      "cillum",
+      "voluptate",
+      "laboris"
     ],
-    "moodDesc": "Hello! I am feeling 79 % energy now",
+    "moodDesc": "Hello! I am feeling 94 % energy now",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "6253c5e7b3b288680c002588",
+    "index": 2,
+    "guid": "cb30b231-436d-441d-8b70-01411e440973",
+    "dateCreated": "2021-06-10T20:44:58",
+    "restDuration": 16,
+    "exerciseDuration": 11,
+    "stepCount": 2251,
+    "snackList": ["dolor", "officia", "quis", "est"],
+    "tags": ["ipsum", "amet", "anim", "id", "nulla", "sunt", "sit"],
+    "moodDesc": "Hello! I am feeling 6 % energy now",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "6253c5e78302b603e04bf99b",
+    "index": 3,
+    "guid": "b2f42bfe-9d95-4e09-a61b-1535d966eaaa",
+    "dateCreated": "2021-03-26T02:46:32",
+    "restDuration": 26,
+    "exerciseDuration": 10,
+    "stepCount": 2773,
+    "snackList": ["esse", "nisi", "qui", "minim"],
+    "tags": ["irure", "id", "ipsum", "duis", "Lorem", "ex", "minim"],
+    "moodDesc": "Hello! I am feeling 16 % energy now",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "6253c5e73f46e6fee16a84bd",
+    "index": 4,
+    "guid": "44881d59-9a0b-4cf4-82d9-7d2ce85d5334",
+    "dateCreated": "2021-03-05T13:32:39",
+    "restDuration": 24,
+    "exerciseDuration": 24,
+    "stepCount": 1723,
+    "snackList": ["ut", "excepteur", "tempor", "mollit"],
+    "tags": ["minim", "ea", "minim", "culpa", "in", "ut", "do"],
+    "moodDesc": "Hello! I am feeling 62 % energy now",
+    "favoriteFruit": "peach"
+  },
+  {
+    "_id": "6253c5e71b9ac7be674a251d",
+    "index": 5,
+    "guid": "b1c5066c-1bce-4de8-9236-c0f52026ce1e",
+    "dateCreated": "2021-03-22T19:35:01",
+    "restDuration": 11,
+    "exerciseDuration": 12,
+    "stepCount": 1806,
+    "snackList": ["nostrud", "nulla", "mollit", "excepteur"],
+    "tags": [
+      "amet",
+      "laboris",
+      "laboris",
+      "proident",
+      "qui",
+      "consectetur",
+      "deserunt"
+    ],
+    "moodDesc": "Hello! I am feeling 7 % energy now",
     "favoriteFruit": "grape"
   },
   {
-    "_id": "62534eb91c11af4082b8ac9a",
-    "index": 1,
-    "guid": "7b225585-5865-4a39-a65b-5e92e58a3cbd",
-    "dateCreated": "2021-04-07T08:23:17 -03:00",
-    "restDuration": 16,
-    "exerciseDuration": 26,
-    "stepCount": 2416,
-    "snackList": [
-      "adipisicing",
-      "anim",
-      "proident",
-      "quis"
-    ],
+    "_id": "6253c5e7b4aeee0582510377",
+    "index": 6,
+    "guid": "49dd21e7-f239-44e4-a37a-77a874aeede4",
+    "dateCreated": "2022-04-08T01:54:45",
+    "restDuration": 24,
+    "exerciseDuration": 19,
+    "stepCount": 2815,
+    "snackList": ["est", "elit", "consequat", "eiusmod"],
     "tags": [
-      "voluptate",
+      "nostrud",
+      "id",
+      "tempor",
+      "elit",
+      "culpa",
+      "consectetur",
+      "adipisicing"
+    ],
+    "moodDesc": "Hello! I am feeling 43 % energy now",
+    "favoriteFruit": "peach"
+  },
+  {
+    "_id": "6253c5e730cb60aee2a9539b",
+    "index": 7,
+    "guid": "1a890ee3-d49a-46b2-9777-eb599a15d6a4",
+    "dateCreated": "2021-07-09T02:44:18",
+    "restDuration": 27,
+    "exerciseDuration": 10,
+    "stepCount": 2069,
+    "snackList": ["veniam", "et", "ut", "tempor"],
+    "tags": [
+      "fugiat",
+      "qui",
+      "reprehenderit",
+      "consequat",
+      "aliqua",
+      "dolor",
+      "ipsum"
+    ],
+    "moodDesc": "Hello! I am feeling 92 % energy now",
+    "favoriteFruit": "grape"
+  },
+  {
+    "_id": "6253c5e75ef5df60c4582590",
+    "index": 8,
+    "guid": "836a72b2-ab1e-48be-8581-bd26bbf39e95",
+    "dateCreated": "2021-06-03T20:36:45",
+    "restDuration": 19,
+    "exerciseDuration": 14,
+    "stepCount": 1240,
+    "snackList": ["nulla", "cillum", "anim", "eiusmod"],
+    "tags": [
+      "elit",
       "occaecat",
-      "laborum",
-      "esse",
-      "laborum",
-      "officia",
-      "officia"
+      "sit",
+      "adipisicing",
+      "fugiat",
+      "ullamco",
+      "occaecat"
     ],
     "moodDesc": "Hello! I am feeling 42 % energy now",
-    "favoriteFruit": "kiwi"
-  },
-  {
-    "_id": "62534eb97bd1b0755852bfa5",
-    "index": 2,
-    "guid": "948eaf4a-2c17-4ec8-bb64-815dae669a15",
-    "dateCreated": "2021-01-04T11:29:02 -03:00",
-    "restDuration": 29,
-    "exerciseDuration": 19,
-    "stepCount": 2020,
-    "snackList": [
-      "nostrud",
-      "culpa",
-      "magna",
-      "magna"
-    ],
-    "tags": [
-      "nostrud",
-      "ut",
-      "minim",
-      "sit",
-      "cillum",
-      "culpa",
-      "veniam"
-    ],
-    "moodDesc": "Hello! I am feeling 54 % energy now",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "62534eb98806cc05c2e6252b",
-    "index": 3,
-    "guid": "d19421bf-0da4-42cf-896e-30f1f408f742",
-    "dateCreated": "2022-02-06T01:54:38 -03:00",
-    "restDuration": 29,
-    "exerciseDuration": 17,
-    "stepCount": 1450,
-    "snackList": [
-      "commodo",
-      "voluptate",
-      "deserunt",
-      "amet"
-    ],
-    "tags": [
-      "adipisicing",
-      "duis",
-      "cupidatat",
-      "cupidatat",
-      "aliqua",
-      "duis",
-      "nisi"
-    ],
-    "moodDesc": "Hello! I am feeling 8 % energy now",
-    "favoriteFruit": "kiwi"
-  },
-  {
-    "_id": "62534eb930fbadb10a880b3b",
-    "index": 4,
-    "guid": "e26722dd-4047-4986-a815-81d02a986757",
-    "dateCreated": "2021-09-16T02:38:12 -03:00",
-    "restDuration": 23,
-    "exerciseDuration": 17,
-    "stepCount": 2181,
-    "snackList": [
-      "esse",
-      "sint",
-      "ex",
-      "enim"
-    ],
-    "tags": [
-      "proident",
-      "nisi",
-      "laborum",
-      "occaecat",
-      "sunt",
-      "qui",
-      "nostrud"
-    ],
-    "moodDesc": "Hello! I am feeling 72 % energy now",
-    "favoriteFruit": "peach"
-  },
-  {
-    "_id": "62534eb9e8e54c17c7575375",
-    "index": 5,
-    "guid": "b46a86d4-d0a7-48dd-b021-fd0befb644b3",
-    "dateCreated": "2021-08-05T05:51:17 -03:00",
-    "restDuration": 16,
-    "exerciseDuration": 26,
-    "stepCount": 1701,
-    "snackList": [
-      "cupidatat",
-      "incididunt",
-      "labore",
-      "deserunt"
-    ],
-    "tags": [
-      "velit",
-      "irure",
-      "enim",
-      "proident",
-      "incididunt",
-      "pariatur",
-      "do"
-    ],
-    "moodDesc": "Hello! I am feeling 87 % energy now",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "62534eb96d099f50b20996a6",
-    "index": 6,
-    "guid": "b82bc6ca-7b18-4e79-a95d-dc19a8275eae",
-    "dateCreated": "2021-06-21T11:29:56 -03:00",
-    "restDuration": 11,
-    "exerciseDuration": 22,
-    "stepCount": 1995,
-    "snackList": [
-      "esse",
-      "proident",
-      "commodo",
-      "velit"
-    ],
-    "tags": [
-      "sint",
-      "laboris",
-      "ea",
-      "sit",
-      "dolor",
-      "sit",
-      "et"
-    ],
-    "moodDesc": "Hello! I am feeling 82 % energy now",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "62534eb9b5b4a0f884983ed3",
-    "index": 7,
-    "guid": "10cdb9c9-9e3c-4112-8c5c-32dccd983e50",
-    "dateCreated": "2021-12-18T04:35:06 -03:00",
-    "restDuration": 17,
-    "exerciseDuration": 30,
-    "stepCount": 2853,
-    "snackList": [
-      "duis",
-      "exercitation",
-      "ipsum",
-      "velit"
-    ],
-    "tags": [
-      "aliquip",
-      "et",
-      "ut",
-      "quis",
-      "eu",
-      "dolor",
-      "qui"
-    ],
-    "moodDesc": "Hello! I am feeling 100 % energy now",
     "favoriteFruit": "apple"
   },
   {
-    "_id": "62534eb9c0c4784a3398eddb",
-    "index": 8,
-    "guid": "1713bcb6-d132-4e1c-a58d-c656ca2932ab",
-    "dateCreated": "2021-07-30T01:13:24 -03:00",
-    "restDuration": 26,
-    "exerciseDuration": 26,
-    "stepCount": 1321,
-    "snackList": [
-      "ea",
-      "id",
-      "nisi",
-      "anim"
-    ],
-    "tags": [
-      "aliquip",
-      "excepteur",
-      "magna",
-      "culpa",
-      "ex",
-      "sint",
-      "nulla"
-    ],
-    "moodDesc": "Hello! I am feeling 62 % energy now",
-    "favoriteFruit": "kiwi"
-  },
-  {
-    "_id": "62534eb97536cadbadc4adfd",
+    "_id": "6253c5e71ad30415f7cc061a",
     "index": 9,
-    "guid": "f784bd32-45ad-4ead-af63-e59f34849ec9",
-    "dateCreated": "2021-09-27T03:37:09 -03:00",
-    "restDuration": 26,
-    "exerciseDuration": 23,
-    "stepCount": 2591,
-    "snackList": [
-      "magna",
-      "elit",
-      "id",
-      "nostrud"
-    ],
-    "tags": [
-      "culpa",
-      "reprehenderit",
-      "qui",
-      "occaecat",
-      "consectetur",
-      "in",
-      "incididunt"
-    ],
-    "moodDesc": "Hello! I am feeling 54 % energy now",
-    "favoriteFruit": "kiwi"
+    "guid": "5bd93942-0796-435b-8301-1cad2db2303d",
+    "dateCreated": "2021-11-09T12:26:12",
+    "restDuration": 25,
+    "exerciseDuration": 11,
+    "stepCount": 2880,
+    "snackList": ["voluptate", "commodo", "labore", "veniam"],
+    "tags": ["duis", "enim", "enim", "nisi", "veniam", "pariatur", "dolore"],
+    "moodDesc": "Hello! I am feeling 97 % energy now",
+    "favoriteFruit": "banana"
   },
   {
-    "_id": "62534eb9a04800941f216e0e",
+    "_id": "6253c5e704b0fba8bd6ff395",
     "index": 10,
-    "guid": "b5b51a29-f683-4707-9840-fdb1333ce971",
-    "dateCreated": "2021-11-16T06:12:43 -03:00",
-    "restDuration": 16,
-    "exerciseDuration": 12,
-    "stepCount": 2350,
-    "snackList": [
-      "labore",
-      "veniam",
-      "do",
-      "laborum"
-    ],
+    "guid": "5213be53-bcbb-4038-8245-da2483297647",
+    "dateCreated": "2021-11-26T08:21:32",
+    "restDuration": 20,
+    "exerciseDuration": 13,
+    "stepCount": 1339,
+    "snackList": ["cillum", "culpa", "quis", "sint"],
     "tags": [
-      "sunt",
-      "eiusmod",
-      "eiusmod",
-      "eiusmod",
-      "tempor",
+      "ad",
+      "aliquip",
+      "consectetur",
       "occaecat",
-      "sit"
+      "qui",
+      "anim",
+      "consectetur"
     ],
-    "moodDesc": "Hello! I am feeling 33 % energy now",
-    "favoriteFruit": "peach"
+    "moodDesc": "Hello! I am feeling 24 % energy now",
+    "favoriteFruit": "apple"
   },
   {
-    "_id": "62534eb96c9c7c6b50184cc8",
+    "_id": "6253c5e774661dda3d18a647",
     "index": 11,
-    "guid": "cacd1148-5451-4be0-a91a-cd5b7646a295",
-    "dateCreated": "2021-06-01T12:26:05 -03:00",
-    "restDuration": 20,
-    "exerciseDuration": 14,
-    "stepCount": 2155,
-    "snackList": [
-      "proident",
-      "sint",
-      "eu",
-      "officia"
-    ],
+    "guid": "ca3dad3d-b80a-4500-8158-0c995d5a95a2",
+    "dateCreated": "2022-03-06T23:58:49",
+    "restDuration": 13,
+    "exerciseDuration": 16,
+    "stepCount": 2288,
+    "snackList": ["Lorem", "incididunt", "velit", "ullamco"],
     "tags": [
-      "nulla",
-      "nulla",
-      "sunt",
-      "duis",
-      "elit",
-      "elit",
-      "do"
+      "eiusmod",
+      "commodo",
+      "consequat",
+      "proident",
+      "pariatur",
+      "anim",
+      "irure"
     ],
-    "moodDesc": "Hello! I am feeling 35 % energy now",
-    "favoriteFruit": "apple"
+    "moodDesc": "Hello! I am feeling 31 % energy now",
+    "favoriteFruit": "grape"
+  },
+  {
+    "_id": "6253c5e79f919af40a65fda1",
+    "index": 12,
+    "guid": "1c2678ed-57eb-41ea-9bf1-8a3ae2d45160",
+    "dateCreated": "2021-07-25T16:00:36",
+    "restDuration": 10,
+    "exerciseDuration": 16,
+    "stepCount": 2271,
+    "snackList": ["nulla", "quis", "ipsum", "pariatur"],
+    "tags": [
+      "consectetur",
+      "labore",
+      "proident",
+      "dolore",
+      "tempor",
+      "anim",
+      "consectetur"
+    ],
+    "moodDesc": "Hello! I am feeling 12 % energy now",
+    "favoriteFruit": "strawberry"
   }
 ]
