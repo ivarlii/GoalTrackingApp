@@ -7,16 +7,16 @@ const NavBarComponent = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const initialPageUrl = "/home";
   const menuList = navigationData.map(({ url, title }, index) => {
     return (
-      <li
-        key={index}
-        className={classNames([
-          "w-28 text-gray-400 hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center",
-          currentRoute === url &&
-            "text-gray-700 border-b-30 border-gray-700 bg-gradient-to-b from-white to-gray-100",
-        ])}
-        onClick={() => setCurrentRoute(url)}
-      >
-        <NavLink exact to={url}>
+      <li key={index} onClick={() => setCurrentRoute(url)}>
+        <NavLink
+          exact
+          to={url}
+          className={classNames([
+            "w-28 h-12 text-gray-400 hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center",
+            currentRoute === url &&
+              "text-gray-700 border-b-30 border-gray-700 bg-gradient-to-b from-white to-gray-100",
+          ])}
+        >
           {title}
         </NavLink>
       </li>

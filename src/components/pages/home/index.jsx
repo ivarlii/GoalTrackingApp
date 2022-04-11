@@ -158,11 +158,15 @@ const HomeComponent = () => {
         }}
       >
         {`Welcome ${
-          userDetails.userDetails?.nickname
+          userDetails.user?.nickname
+            ? userDetails.user.nickname
+            : userDetails.userDetails?.nickname
             ? userDetails.userDetails.nickname
             : ""
         } (${
-          userDetails?.userDetails?.username
+          userDetails?.user?.username
+            ? userDetails.user.username
+            : userDetails.userDetails?.username
             ? userDetails.userDetails.username
             : "not registered user"
         })`}

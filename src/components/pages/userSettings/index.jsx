@@ -19,7 +19,7 @@ const UserSettingsComponent = () => {
 
   useEffect(() => {
     if (userDetails) {
-      const user = { ...userDetails.userDetails };
+      const user = { ...userDetails.user };
       setFields({ ...user, email: user.username });
       form.setFieldsValue({
         ...user,
@@ -39,12 +39,20 @@ const UserSettingsComponent = () => {
         const params = {
           email: fields.email,
           password: fields.password,
+          nickname: fields.nickname,
+          phone: fields.phone,
+          gender: fields.gender,
         };
         const response = await updateUser(dispatch, params);
         if (!response?.user) {
           openNotification("error");
           return;
         }
+        setFields({ ...response.user, email: response.user.username });
+        form.setFieldsValue({
+          ...response.user,
+          email: response.user.username,
+        });
         openNotification("success");
       })
       .catch(() => {

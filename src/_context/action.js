@@ -48,6 +48,7 @@ export async function updateUser(dispatch, params) {
   if (params) {
     const user = {
       user: {
+        username: params.email,
         password: params.password,
         nickname: params.nickname,
         phone: params.phone,
