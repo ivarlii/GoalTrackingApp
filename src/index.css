@@ -1,8 +1,12 @@
 @import "~antd/dist/antd.css";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "~tailwindcss/base.css";
+@import "~tailwindcss/components.css";
+@import "~tailwindcss/utilities.css";
+
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
 
 :root {
   --main-color: #6b876b;
@@ -29,4 +33,13 @@ code {
   font-family: "Montserrat Regular";
   src: local("Montserrat Regular"),
     url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+.ant-btn {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+.ant-btn:hover {
+  color: var(--main-color);
+  border-color: var(--main-color);
 }

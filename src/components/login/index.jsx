@@ -1,24 +1,53 @@
 import "./style/LoginComponent.css";
 import { Link, useHistory } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import loginImage from "../../assets/images/leaves.jpg";
 import logoImage from "../../assets/images/logo.png";
+import { login, useAuthDispatch } from "../../_context";
 
 const LoginComponent = () => {
+  const dispatch = useAuthDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState({});
   let history = useHistory();
 
-  const handleSubmit = (event) => {
+  useEffect(() => {
+    if (email !== "") {
+      setErrors((prevState) => ({ ...prevState, email: false }));
+    }
+  }, [email]);
+
+  useEffect(() => {
+    if (password !== "") {
+      setErrors((prevState) => ({ ...prevState, password: false }));
+    }
+  }, [password]);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
     if (!checkSubmit()) {
-      event.preventDefault();
       return;
     }
-    history.push("/Home");
-    setEmail("");
-    setPassword("");
-    setErrors({});
+    try {
+      const loginParams = {
+        email: email,
+        password: password,
+        nickname: "nickname1",
+        phone: "+901231231234",
+        gender: "female",
+      };
+      const response = await login(dispatch, loginParams);
+      if (!response?.user) {
+        return;
+      }
+      history.push("/home");
+      setEmail("");
+      setPassword("");
+      setErrors({});
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   const checkSubmit = () => {
@@ -65,7 +94,7 @@ const LoginComponent = () => {
               onChange={(event) => setPassword(event.target.value)}
               placeholder="Enter password"
             />
-            {errors.email && renderRequiredNotificationLabel()}
+            {errors.password && renderRequiredNotificationLabel()}
             <button id="submit_btn" type="submit">
               Login
             </button>
@@ -73,7 +102,7 @@ const LoginComponent = () => {
           <div className="footer">
             <h4>
               <span>{"Don't have an account?"}</span>
-              <Link className="link" to="/Register">
+              <Link className="link" to="/register">
                 Register now
               </Link>
             </h4>

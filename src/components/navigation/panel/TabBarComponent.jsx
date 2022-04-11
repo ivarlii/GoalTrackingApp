@@ -8,9 +8,10 @@ import { useCallback } from "react";
 import classNames from "classnames";
 import { BiBaseball } from "react-icons/bi";
 import { ImUser } from "react-icons/im";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const TabBarComponent = ({ navigationData, currentRoute, setCurrentRoute }) => {
+  let location = useLocation();
   const getTabIcon = useCallback((item) => {
     switch (item) {
       case "Home":
@@ -29,7 +30,10 @@ const TabBarComponent = ({ navigationData, currentRoute, setCurrentRoute }) => {
   }, []);
 
   return (
-    <nav className="flex md:hidden flex-row items-center justify-around px-8 h-20 bg-white visible md:invisible fixed bottom-0 w-full rounded-t-3xl text-2xl">
+    <nav
+      className={`${["/", "/register"].includes(location.pathname) && "hidden"} 
+                            flex md:hidden flex-row items-center justify-around px-8 h-20 bg-white visible md:invisible fixed bottom-0 w-full rounded-t-3xl text-2xl`}
+    >
       {navigationData.map(({ url, title }, index) => (
         <span
           key={index}

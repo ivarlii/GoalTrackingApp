@@ -9,51 +9,54 @@ import ImprovementComponent from "./components/pages/improvement";
 import DiscoverComponent from "./components/pages/discover";
 import UserSettingsComponent from "./components/pages/userSettings";
 import NavigationComponent from "./components/navigation";
-import SideBarComponent from "./components/sideBar";
+import SidebarComponent from "./components/sidebar";
+import { AuthProvider } from "./_context";
 
-function App() {
+const App = () => {
   return (
-    <div className="App font-face-gm">
-      <header className="App-header">
-        <Router>
-          <Route path="/" exact={true}>
-            <LoginComponent />
-          </Route>
-          <div>
-            <NavigationComponent />
-            <div className="flex-col items-center justify-center py-2">
-              <SideBarComponent />
-              <div className="p-6 m-auto h-4/5">
-                <Switch>
-                  <Route path="/register">
-                    <RegisterComponent />
-                  </Route>
-                  <Route path="/home">
-                    <HomeComponent />
-                  </Route>
-                  <Route path="/health">
-                    <HealthComponent />
-                  </Route>
-                  <Route path="/sport">
-                    <SportComponent />
-                  </Route>
-                  <Route path="/discover">
-                    <DiscoverComponent />
-                  </Route>
-                  <Route path="/improvement">
-                    <ImprovementComponent />
-                  </Route>
-                  <Route path="/settings">
-                    <UserSettingsComponent />
-                  </Route>
-                </Switch>
+    <AuthProvider>
+      <div className="App font-face-gm">
+        <header className="App-header">
+          <Router>
+            <Route path="/" exact={true}>
+              <LoginComponent />
+            </Route>
+            <Route path="/register">
+              <RegisterComponent />
+            </Route>
+            <div>
+              <NavigationComponent />
+              <div className="flex-col items-center justify-center py-3">
+                <SidebarComponent />
+                <div className="p-6 m-auto h-4/5">
+                  <Switch>
+                    <Route path="/home">
+                      <HomeComponent />
+                    </Route>
+                    <Route path="/health">
+                      <HealthComponent />
+                    </Route>
+                    <Route path="/sport">
+                      <SportComponent />
+                    </Route>
+                    <Route path="/discover">
+                      <DiscoverComponent />
+                    </Route>
+                    <Route path="/improvement">
+                      <ImprovementComponent />
+                    </Route>
+                    <Route path="/settings">
+                      <UserSettingsComponent />
+                    </Route>
+                  </Switch>
+                </div>
               </div>
             </div>
-          </div>
-        </Router>
-      </header>
-    </div>
+          </Router>
+        </header>
+      </div>
+    </AuthProvider>
   );
-}
+};
 
 export default App;
