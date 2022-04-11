@@ -26,6 +26,8 @@ const SidebarComponent = () => {
     );
   };
 
+  const { username, nickname, phone, gender } = userDetails?.userDetails;
+
   return (
     <div>
       <>
@@ -68,13 +70,10 @@ const SidebarComponent = () => {
               description="My information"
             />
             <div style={{ marginTop: 20, display: "grid", gap: 8 }}>
-              {getCurrentUserInfo(
-                "Nickname:",
-                userDetails.userDetails.nickname
-              )}
-              {getCurrentUserInfo("Email:", userDetails.userDetails.username)}
-              {getCurrentUserInfo("Phone:", userDetails.userDetails.phone)}
-              {getCurrentUserInfo("Gender:", userDetails.userDetails.gender)}
+              {getCurrentUserInfo("Nickname:", nickname)}
+              {getCurrentUserInfo("Email:", username)}
+              {getCurrentUserInfo("Phone:", phone)}
+              {getCurrentUserInfo("Gender:", gender)}
             </div>
           </Card>
         </div>

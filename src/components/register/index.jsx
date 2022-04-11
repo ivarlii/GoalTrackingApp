@@ -45,12 +45,12 @@ const RegisterComponent = () => {
 
   const handleSubmit = async () => {
     formRef.current.validateFields().then(async () => {
-      const loginParams = {
+      const registerParams = {
         email: fields.email,
         password: fields.password,
       };
-      const response = await register(dispatch, loginParams);
-      if (response?.user) {
+      const response = await register(dispatch, registerParams);
+      if (!response?.user) {
         openNotification("error");
         return;
       }
@@ -104,6 +104,7 @@ const RegisterComponent = () => {
         labelCol={{ xs: { span: 24 }, sm: { span: 8 } }}
         wrapperCol={{ xs: { span: 24 }, sm: { span: 16 } }}
         form={form}
+        ref={formRef}
         name="register"
         onFinish={handleSubmit}
         initialValues={{

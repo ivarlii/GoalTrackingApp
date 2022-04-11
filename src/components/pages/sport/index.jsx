@@ -98,7 +98,7 @@ const SportComponent = () => {
                     total: {
                       show: true,
                       label: "Total",
-                      formatter: function (w) {
+                      formatter: function () {
                         return typeof totalCount === "number"
                           ? totalCount.toLocaleString("en")
                           : totalCount;

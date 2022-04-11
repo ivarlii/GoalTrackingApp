@@ -16,8 +16,6 @@ const TabBarComponent = ({ navigationData, currentRoute, setCurrentRoute }) => {
     switch (item) {
       case "Home":
         return <AiFillHome />;
-      case "Discover":
-        return <AiFillCompass />;
       case "Health":
         return <AiFillHeart />;
       case "Sport":

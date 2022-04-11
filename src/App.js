@@ -6,7 +6,6 @@ import HomeComponent from "./components/pages/home";
 import HealthComponent from "./components/pages/health";
 import SportComponent from "./components/pages/sport";
 import ImprovementComponent from "./components/pages/improvement";
-import DiscoverComponent from "./components/pages/discover";
 import UserSettingsComponent from "./components/pages/userSettings";
 import NavigationComponent from "./components/navigation";
 import SidebarComponent from "./components/sidebar";
@@ -38,9 +37,6 @@ const App = () => {
                     </Route>
                     <Route path="/sport">
                       <SportComponent />
-                    </Route>
-                    <Route path="/discover">
-                      <DiscoverComponent />
                     </Route>
                     <Route path="/improvement">
                       <ImprovementComponent />
